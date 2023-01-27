@@ -1,7 +1,7 @@
 package org.example;
 import java.util.Random;
 import java.util.Scanner;
-public class Main {
+public class HomeWork1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите Номер задачи от 1 до 3");
