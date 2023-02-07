@@ -91,7 +91,7 @@ public class HomeWork4 {
             System.out.println("Перевернутый список:");
             System.out.println(thisIsOurList);
 
-            System.out.println("Введите 0 для возврата к выбору задачи и что угодно для повтора этой программы:");
+            System.out.println("Введите 0 для возврата к выбору задачи . Либо, любое значение для повтора задания:");
             Scanner cheking = new Scanner(System.in);
             String command = cheking.next();
             if (command.equals("0")) {
