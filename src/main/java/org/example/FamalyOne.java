@@ -2,7 +2,7 @@ package org.example;
 
 public class FamalyOne extends People implements GettingInfo {
     public FamalyOne(String name,int age ) {
-        super.setAll(name,age);
+        super(name,age);
     }
 
 

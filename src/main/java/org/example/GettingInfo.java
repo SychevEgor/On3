@@ -1,6 +1,7 @@
 package org.example;
 
 public interface GettingInfo {
-      void getInfo();
+      public   void getInfo();
+
 
  }

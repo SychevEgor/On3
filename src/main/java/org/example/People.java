@@ -13,21 +13,17 @@ public abstract class People   {
     private String status;
 
 
-  //  public People() {
-    //    this.name = name;
-      //  this.age = age;
-    //}
+   public People(String name, int age ) {
+        this.name = name;
+        this.age = age;
+    }
 
     @Override
     public String toString() {
         return name;
     }
 
-    public  void setAll(String name, int age){
-        this.name = name;
-        this.age = age;
 
-    }
     public void setStatus(String status){
         this.status = status;
 
