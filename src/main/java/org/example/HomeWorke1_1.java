@@ -1,3 +1,5 @@
+package Algoritm4;
+
 import java.util.Arrays;
 
 class Main {
